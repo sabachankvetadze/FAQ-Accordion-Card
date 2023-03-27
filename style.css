@@ -1,0 +1,212 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+  padding-top: 40%;
+  padding-bottom: 17%;
+}
+main {
+  background: #ffffff;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+  width: 327px;
+  border-radius: 23px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 48px;
+}
+.shade {
+  display: none;
+}
+
+.woman {
+  margin-top: -109px;
+  width: 240px;
+}
+.boxs {
+  display: none;
+}
+.shadow {
+  margin-top: -77px;
+  display: block;
+  margin-left: 40px;
+}
+.faq {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1e1f36;
+  margin-top: 50px;
+}
+.members {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  gap: 6px;
+}
+.reset {
+  gap: 55.5px;
+}
+.invite {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4b4c5f;
+  margin-top: 40px;
+}
+.team {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #4b4c5f;
+}
+.line {
+  height: 1px;
+  width: 270px;
+  background: rgba(232, 232, 234, 1);
+  margin-left: 27px;
+  margin-top: 5px;
+}
+.pasword {
+  gap: 53.5px;
+}
+.provide {
+  gap: 17.5px;
+}
+.svg {
+  margin-left: -5px;
+}
+.upload {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1e1f36;
+}
+.GB {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #787887;
+  width: 250px;
+  margin-left: 28px;
+  margin-top: -7px;
+  text-align: left;
+  display: none;
+}
+.members.down + .GB {
+  display: block;
+}
+.down > p {
+  font-family: "Kumbh Sans";
+  font-style: normal;
+  font-weight: 700;
+}
+.down > svg {
+  rotate: 180deg;
+}
+
+@media only screen and (min-width: 1440px) {
+    body{
+        width: 100vw;
+  height: 100vh;
+    }
+  main {
+
+    width: 920px;
+    border-radius: 23px;
+    margin: 129px 260px 130px 260px;
+    background-image: url(./images/illustration-woman-online-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -70px 45px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .woman {
+    display: none;
+  }
+  .shadow {
+    display: none;
+  }
+  .box {
+    margin-left: -92px;
+    margin-top: 190px;
+}
+  
+  .shade {
+    margin-left: -570px;
+    margin-top: -330px;
+    display: block;
+    position: absolute;
+  }
+
+  .sector {
+    padding: 25px 45px 80px 0px;
+  }
+  .faq {
+    margin-top: 50px;
+    margin-left: -69%;
+  }
+  .invite {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .upload {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .members {
+    gap: 46px;
+  }
+
+  .GB {
+    width: 320px;
+    margin-left: 29px;
+    display: none;
+  }
+  .team {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .line {
+    height: 1px;
+    width: 350px;
+    margin-top: 5px;
+  }
+  .pasword {
+    gap: 99px;
+  }
+  .provide {
+    gap: 59px;
+  }
+  .team {
+    margin-left: -8px;
+  }
+  .reset {
+    gap: 101.5px;
+  }
+  .line {
+    width: 375px;
+  }
+  .invite {
+    margin-left: -8px;
+  }
+  .upload {
+    margin-left: -8px;
+  }
+  .boxs {
+    display: block;
+  }
+}
